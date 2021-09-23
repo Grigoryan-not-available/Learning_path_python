@@ -25,5 +25,11 @@ def listGen(n):
     lists = [i for i in range(n) if i % 2 == 0]
     return lists
 
-# f1loop = loopGenlist(10**5)
-# f2glisten = listGen(10**5)
+#f1loop = loopGenlist(10**7)
+#f2glisten = listGen(10**7)
+
+l = ['adadadodf', 'sfsfo', '123', 'dsfdgqeg']
+
+print(list(map(lambda x, y: x + y, (1, 2), (3, 4))))
+
+print(list(filter(lambda c: 'o' in c, l)))  
